@@ -379,7 +379,8 @@ class App(QWidget):
             elif (self.target_tilt < self.min_tilt):
                 self.target_tilt = self.min_tilt
 
-if __name__ == '__main__':
+print（target_pan）
+         if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = App()
     app.exec_()
